@@ -25,6 +25,10 @@ In the body...
                     - 4 input buttons, values are 1, 2, 3, and +
                     - Each one will also call the liveScreen() function when clicked on
                     - liveScreen() function is found in script at bottom of body
+            - Third, fourth, and fifth row class
+                    - Same as the other rows, however, the 5th row is slightly different
+                    - Fifth row includes = which will evaluate what is in the text box
+                    - also includes the dot . to allow for decimal values
     
 Calculator Script File
     clearScreen() function called when the clear button 'C' is pressed by the user
