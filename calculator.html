@@ -13,18 +13,18 @@
         <div class="wrapper">
             <div class="container">
                 <h1>Calculator</h1>
-
                 <div class="first-row">
                     <input type="text" name="result" class="result" id="result" value="" placeholder="Result" readonly />
-                    <input type="button" value="C" onclick="" id="clear" />
+                    <input type="button" value="C" onclick="clearScreen()" id="clear" />
                 </div>
                 <div class="second-row">
-                    <input type="button" value="1" onclick="" id="one"/>
-                    <input type="button" value="2" onclick="" id="two"/>
-                    <input type="button" value="3" onclick="" id="three"/>
-                    <input type="button" value="+" onclick=""/>
+                    <input type="button" value="1" onclick="liveScreen(1)" id="one"/>
+                    <input type="button" value="2" onclick="liveScreen(2)" id="two"/>
+                    <input type="button" value="3" onclick="liveScreen(3)" id="three"/>
+                    <input type="button" value="+" onclick="liveScreen('+')"/>
                 </div>
             </div>
         </div>
+        <script src="calculatorScript.js"></script>
     </body>
 </html>
