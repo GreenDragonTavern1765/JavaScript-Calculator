@@ -17,7 +17,7 @@ In the header...
 In the body...
     <div></div> defines a division or a section of an HTML file, divides a section that can be styled by CSS files
             - Class attribute is used to show which row is being created, that will house the various buttons of the calculator
-            - Header <h1> is the calculator header
+            - Header is the calculator header
             - First row class
                     - The first input attribute is a text box, that will place the results of the calculations
                     - There is also a box that will hold 'C' and will clear the results to allow for a new calculation
