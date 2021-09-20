@@ -21,3 +21,16 @@ In the body...
             - First row class
                     - The first input attribute is a text box, that will place the results of the calculations
                     - There is also a box that will hold 'C' and will clear the results to allow for a new calculation
+            - Second row class
+                    - 4 input buttons, values are 1, 2, 3, and +
+                    - Each one will also call the liveScreen() function when clicked on
+                    - liveScreen() function is found in script at bottom of body
+    
+Calculator Script File
+    clearScreen() function called when the clear button 'C' is pressed by the user
+            1. Document object is the root object of the html document
+            2. getElementById() returns the element that has the ID attribute with the specified value
+    liveScreen() function will print value of button pressed by user to the text box
+            1. Get the result input by the button being clicked, save it to res
+            2. If the value is undefined, then print nothing
+            3. Otherwise, add the value to the results on the screen
