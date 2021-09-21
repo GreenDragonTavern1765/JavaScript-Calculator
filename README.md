@@ -38,3 +38,9 @@ Calculator Script File
             1. Get the result input by the button being clicked, save it to res
             2. If the value is undefined, then print nothing
             3. Otherwise, add the value to the results on the screen
+
+light.css Stylesheet
+    First bracket (star bracket)
+            - Star selector selects all elements, it will apply to all elements on the document
+            - Implements the margins, box sizing, and the font type and weight
+            - Box sizing allows inclusion of padding and border in an elements total width and height
