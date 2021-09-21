@@ -38,9 +38,22 @@ Calculator Script File
             1. Get the result input by the button being clicked, save it to res
             2. If the value is undefined, then print nothing
             3. Otherwise, add the value to the results on the screen
+    changeTheme() function will change the theme of the document (color schemes)
+            1. When html document first loads, will start off in light theme, then there is a button on the bottom
+            2. When button is pressed, changeTheme is called, and will switch to the other theme (color scheme)
 
 light.css Stylesheet
     First bracket (star bracket)
             - Star selector selects all elements, it will apply to all elements on the document
             - Implements the margins, box sizing, and the font type and weight
             - Box sizing allows inclusion of padding and border in an elements total width and height
+            
+dark.css Stylesheet
+    First bracket (star bracket)
+            - Applies to all elements, every element in the document
+            - Implements sizes, margins, font type, etc.
+            - Inclusion of padding and borders.
+            
+Works cited
+    All credit for source code up to commit 21 goes to Github user zxcodes (Mohammed Farmaan), who provided the template for this design
+    Any changes added in the future will build upon his original design.
