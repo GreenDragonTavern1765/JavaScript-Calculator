@@ -6,6 +6,9 @@
     font-weight: bold;
 }
 
+::placeholder {
+    color: rgb(221, 221, 221);
+}
 .wrapper {
     height: 100vh;
     width: 100%;
@@ -13,31 +16,28 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(28, 231, 221);
+    background-color: rgb(20, 19, 19);
     transition: 0.8s all;
 }
 
 h1 {
     text-align: center;
-    margin-botton: 1.5%;
+    margin-bottom: 1.5%;
     color: #fff;
 }
-
 .container {
     width: 300px;
 }
-
 .result {
     width: 59.1%;
 }
-
 input {
     padding: 25px;
-    color: rgb(87, 87, 87);
+    color: rgb(255, 255, 255);
     font-size: 1em;
     cursor: pointer;
     width: 70px;
-    background-color: #fff;
+    background-color: rgb(47, 51, 50);
     border: none;
     outline: none;
     border-radius: 4px;
@@ -46,29 +46,21 @@ input {
 .first-row, .second-row, .third-row, .fourth-row, .fifth-row {
     margin-bottom: 3px;
 }
-
-input[type="button"] {
-    color: rgb(122, 122, 122);
-}
-
 input[type="text"] {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(47, 51, 50);
     width: 218px;
 }
-
 input[type="button"]:hover {
-    background-color: rgb(37, 35, 59);
+    background-color: rgb(160, 160, 160);
     color: #fff;
 }
-
 #clear {
     color: #fff;
-    background-color: rgb(255, 25, 25);
+    background-color: rgb(255, 42, 42);
 }
-
 button {
     border: none;
-    background-color: rgb(41, 38, 38);
+    background-color: rgb(39, 36, 36);
     padding: 8px;
     color: white;
     margin: 2px;
@@ -81,14 +73,20 @@ button {
 
 a {
     text-decoration: none;
+    color: #fff;
     border: none;
-    background-color: rgb(41, 38, 38);
+    background-color: rgb(39, 36, 36);
     padding: 8px;
     color: white;
     margin: 2px;
-    cursor: pointer;
-    outline: none;
     border-radius: 4px;
     font-size: 0.8em;
     font-weight: 200;
+}
+.bottom-buttons {
+    display: flex;
+    margin-left: -2.3px;
+}
+.fab {
+    font-size: 1.1em;
 }
